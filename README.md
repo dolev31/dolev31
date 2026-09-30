@@ -27,6 +27,7 @@ doubles retail task success in a τ²-bench customer-service agent it was never 
 
 [![Stars](https://img.shields.io/github/stars/dolev31/ProactiveInquirer?style=social)](https://github.com/dolev31/ProactiveInquirer)
 
+[Paper](https://arxiv.org/abs/2609.37236) ·
 [Project page](https://dolev31.github.io/ProactiveInquirer/) ·
 [Code](https://github.com/dolev31/ProactiveInquirer) ·
 [Model 🤗](https://huggingface.co/dolev31/ProactiveInquirer-Qwen3-8B)
