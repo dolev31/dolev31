@@ -14,6 +14,25 @@ what agents pursue without being asked, and how safely they act.
 
 ---
 
+### ⚡ TabAgent: Distilling LLM Agent Components into Cheap Classifiers · 2026
+
+**Ido Levy**, Segev Shlomov, Avi Yaeli, Nir Mashkif, Asaf Adi, Yinon Goldstein, Eilam Shapira, Leshem Choshen
+
+<a href="https://github.com/dolev31/TabAgent"><img src="https://dolev31.github.io/TabAgent/assets/social-card.png" width="100%" alt="TabAgent: replace an LLM agent's closed-set decisions with a cheap classifier trained from its own logs"></a>
+
+Agents call a frontier LLM again and again for closed-set decisions: which tools to shortlist, which skill or
+application to use, where to route. TabAgent replaces that call with a compact classifier trained on the agent's
+own successful runs, leaving the rest of the agent intact. On tool shortlisting it recovers essentially all of the
+tools the GPT-5.4 shortlister used on its successful runs, at about 10³× lower latency and 10⁵× lower cost per call.
+
+[![Stars](https://img.shields.io/github/stars/dolev31/TabAgent?style=social)](https://github.com/dolev31/TabAgent)
+[![PyPI](https://img.shields.io/pypi/v/tabagent?label=pip%20install%20tabagent)](https://pypi.org/project/tabagent/)
+
+[Paper](https://arxiv.org/abs/2602.16429) ·
+[Project page](https://dolev31.github.io/TabAgent/) ·
+[Code](https://github.com/dolev31/TabAgent) ·
+[Models 🤗](https://huggingface.co/dolev31/tabagent-skillsbench-skill-selection)
+
 ### 🔎 Asking for What Was Never Requested: Horizontal and Vertical Proactivity in Agents · 2026
 
 **Ido Levy**, Asaf Yehudai, Segev Shlomov, Asaf Adi, Leshem Choshen
