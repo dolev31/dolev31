@@ -8,11 +8,31 @@ what agents pursue without being asked, and how safely they act.
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Ido%20Levy-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=Ok_7M80AAAAJ)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-idolevi31-0A66C2)](https://www.linkedin.com/in/idolevi31/)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-dolev31-FFD21E)](https://huggingface.co/dolev31)
-[![New paper](https://img.shields.io/badge/New%20paper-project%20page-1B5EA8)](https://dolev31.github.io/ProactiveInquirer/)
+[![New paper](https://img.shields.io/badge/New%20paper-arXiv%202610.29722-1B5EA8)](https://arxiv.org/abs/2610.29722)
 
 </div>
 
 ---
+
+### 🧱 Retrieval Augmented Generation Compositionality · Lasagna · 2026
+
+**Ido Levy**, Segev Shlomov, Leshem Choshen
+
+<a href="https://dolev31.github.io/lasagna/"><img src="https://dolev31.github.io/lasagna/assets/social.png" width="100%" alt="Retrieval Augmented Generation Compositionality, by Ido Levy, Segev Shlomov and Leshem Choshen. Predicted versus realized gain: retrieval quality (NDCG@10) +47% predicted, +17% realized; answer faithfulness +28% predicted, +32% realized."></a>
+
+RAG techniques are usually tested one at a time. Do their gains survive when they are combined? Across
+450 configurations, eight benchmarks and corpora from 5K to 200K documents, the three strongest single
+retrieval techniques predict a +47% gain in NDCG@10 when combined and deliver +17%, and the pipeline that
+leads on small corpora trails by 13.7% NDCG@10 at 200K documents. Lasagna, the open-source framework behind the study,
+swaps one stage of a RAG pipeline while holding the rest fixed and tests whether the difference is real.
+
+[![Stars](https://img.shields.io/github/stars/dolev31/lasagna?style=social)](https://github.com/dolev31/lasagna)
+
+[Paper](https://arxiv.org/abs/2610.29722) ·
+[Project page](https://dolev31.github.io/lasagna/) ·
+[Code](https://github.com/dolev31/lasagna) ·
+[PyPI](https://pypi.org/project/lasagna-rag/) ·
+[Pre-registration](https://github.com/dolev31/Lasagna-Retrieval-Augmented-Generation-Compositionality)
 
 ### ⚡ TabAgent: Distilling LLM Agent Components into Cheap Classifiers · 2026
 
